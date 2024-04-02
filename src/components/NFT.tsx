@@ -5,7 +5,7 @@ import type { NFTInfoType, NFTType } from '../../types.ts'
 export default function NFT({ data }: { data: NFTType[] }) {
 	const { nftId, nftTitle, nftImage, nftInfo }: NFTType = data
 	return (
-		<div className="rounded-[1.25rem] bg-background p-3 w-full cursor-pointer">
+		<div className="rounded-[1.25rem] bg-background p-3 max-w-[388px] min-w-[388px] cursor-pointer">
 			<div className="py-1 px-2 flex flex-row justify-between w-full items-center mb-[2px]">
 				<p className="text-primary_text">{nftTitle}</p>
 				<ReactSVG src={moreIcon} className="cursor-pointer" />
