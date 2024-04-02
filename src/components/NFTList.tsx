@@ -1,8 +1,8 @@
 import NFT from './NFT'
-import nftImage1 from '../assets/nft_illustration_1.png'
-import nftImage2 from '../assets/nft_illustration_2.png'
-import nftImage3 from '../assets/nft_illustration_3.png'
-import nftImage4 from '../assets/nft_illustration_4.png'
+import nftImage1 from '../assets/images/nft_illustration_1.png'
+import nftImage2 from '../assets/images/nft_illustration_2.png'
+import nftImage3 from '../assets/images/nft_illustration_3.png'
+import nftImage4 from '../assets/images/nft_illustration_4.png'
 import { NFTType } from '../../types'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
@@ -136,7 +136,7 @@ export default function NFTList() {
 						</SwiperSlide>
 					)
 				})}
-				<div className="bg-background p-[11px] rounded-full w-[295px] m-auto h-[78px] mt-[28px] "></div>
+				<div className="bg-background p-[11px] rounded-full w-[295px] m-auto h-[78px] mt-[28px]"></div>
 			</Swiper>
 		</div>
 	)

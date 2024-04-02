@@ -1,6 +1,6 @@
 import { ReactSVG } from 'react-svg'
 import DashboardHeader from '../components/DashboardHeader'
-import refreshIcon from '../assets/refresh.svg'
+import refreshIcon from '../assets/svgs/refresh.svg'
 import { useEffect, useState } from 'react'
 import NFTList from '../components/NFTList'
 

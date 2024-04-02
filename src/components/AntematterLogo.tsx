@@ -1,5 +1,5 @@
 import { ReactSVG } from 'react-svg'
-import antematterLogo from '../assets/antematter.svg'
+import antematterLogo from '../assets/svgs/antematter.svg'
 export default function AntematterLogo() {
 	return (
 		<div className="p-[26px] cursor-pointer grid place-items-center">

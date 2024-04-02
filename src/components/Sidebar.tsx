@@ -1,8 +1,8 @@
 import AntematterLogo from './AntematterLogo'
 import Notifications from './Notifications'
-import homeIcon from '../assets/home.svg'
-import nftIcon from '../assets/nft-listing.svg'
-import settingsIcon from '../assets/settings.svg'
+import homeIcon from '../assets/svgs/home.svg'
+import nftIcon from '../assets/svgs/nft-listing.svg'
+import settingsIcon from '../assets/svgs/settings.svg'
 import RouteComponent from './RouteComponent'
 
 export default function Sidebar() {

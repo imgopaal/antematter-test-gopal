@@ -1,5 +1,5 @@
 import { ReactSVG } from 'react-svg'
-import notificationLogo from '../assets/notifications.svg'
+import notificationLogo from '../assets/svgs/notifications.svg'
 export default function Notifications() {
 	return (
 		<div className="p-[26px] cursor-pointer grid place-items-center relative text-unselected_state">
