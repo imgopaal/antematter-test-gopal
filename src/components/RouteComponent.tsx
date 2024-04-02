@@ -12,8 +12,8 @@ export default function RouteComponent({ icon }: any) {
 			}`}
 		>
 			<div
-				className={`h-10 w-[2px] bg-transparent group-hover:bg-primary_text absolute left-0 ${
-					active ? 'bg-primary_text' : 'bg-transparent'
+				className={`h-10 w-[2px] group-hover:bg-primary_text absolute left-0 ${
+					active ? 'bg-primary_text' : 'text-transparent'
 				}`}
 			></div>
 			<ReactSVG src={icon} />
