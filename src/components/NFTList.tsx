@@ -96,7 +96,7 @@ export default function NFTList() {
 		},
 	]
 	return (
-		<div className="pt-[74px] pb-14 px-[50px] w-full">
+		<div className="pt-[74px] pb-14 px-2 w-full sm:px-[50px]">
 			<Swiper
 				centeredSlides={false}
 				slidesPerGroupSkip={1}
