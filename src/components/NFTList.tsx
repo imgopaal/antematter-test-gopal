@@ -67,7 +67,7 @@ export default function NFTList() {
 
 	useEffect(() => {
 		// Map the NFT data to the desired format
-		const mappedNFTs = nfts?.map((nft, index) => {
+		const mappedNFTs = nfts?.map((nft: any, index: number) => {
 			const nftId = `iu${index + 1}`
 			const nftTitle = nft.name
 			const nftImage = nft.image
