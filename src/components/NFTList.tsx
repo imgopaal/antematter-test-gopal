@@ -19,7 +19,7 @@ const connection = new Connection(clusterApiUrl('devnet'))
 const mx = Metaplex.make(connection)
 
 export default function NFTList() {
-	const [nfts, setNfts] = useState(null)
+	const [nfts, setNfts]: any = useState()
 	const [mappedNFTs, setMappedNFTs] = useState([])
 
 	function shortenAddress(address: string) {
