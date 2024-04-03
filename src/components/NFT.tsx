@@ -1,9 +1,8 @@
 import { ReactSVG } from 'react-svg'
 import moreIcon from '../assets/svgs/more.svg'
-import type { NFTInfoType, NFTType } from '../../types.ts'
 
-export default function NFT({ data }: { data: NFTType[] }) {
-	const { nftId, nftTitle, nftImage, nftInfo }: NFTType = data
+export default function NFT({ data }: { data: any }) {
+	const { nftTitle, nftImage, nftInfo }: any = data
 	return (
 		<div className="rounded-[1.25rem] bg-background p-3 max-w-[388px] min-w-[388px] cursor-pointer">
 			<div className="py-1 px-2 flex flex-row justify-between w-full items-center mb-[2px]">
@@ -12,7 +11,7 @@ export default function NFT({ data }: { data: NFTType[] }) {
 			</div>
 			<img src={nftImage} alt="nft 1" className="h-[364px] w-full mb-[18px] rounded-lg" />
 			<div className="bg-grey_2 p-2 grid grid-cols-1 gap-3 rounded-xl">
-				{nftInfo.map((info: NFTInfoType, index: number) => {
+				{nftInfo.map((info: any, index: number) => {
 					const { title, value } = info
 					return (
 						<div key={index} className="bg-grey_1 flex flex-row justify-between py-2 px-[10px] rounded-lg">
